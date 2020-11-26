@@ -81,8 +81,8 @@ void mergesort(int l , int r){
 	if(l<r){
 			int m=(l+r)/2;
 			mergesort(l,m);
-	    		mergesort(m+1,r);
-	    		merge(l,m,r);
+            mergesort(m+1,r);
+            merge(l,m,r);
 	}
 
 }
@@ -219,10 +219,13 @@ void display(){
 	drawlines();
      glColor3f(0,0,0);
      drawString1(150,520,1,"SORTING ALGORITHM VISUALIZER");
-     drawString1(150,500,1,"BY- Palak and Mahima");
+     drawString1(150,500,1,"BY- Palak, Mahima, Mukul");
     glutSwapBuffers();
 	sort();
 }
+//End of text
+
+//random display of text
 
 void randomize(){
 int a;
