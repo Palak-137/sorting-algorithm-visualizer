@@ -3,6 +3,7 @@
 #include<iostream>
 
 #define max 80
+//the no of lines in the interface
 
 struct color {
 	int r,g,b;
@@ -147,7 +148,7 @@ void insertion(){
 
 }
 
-
+//initial sort using selection sort
 void sort(){
 	line temp;
 	int a=0;
@@ -256,7 +257,7 @@ int main(int argc,char** argv){
 	glutInitWindowSize(900,600);
 	glutCreateWindow("sort");
 	glutCreateMenu(choice);
-	glutAddMenuEntry("Bubble sort",0);
+	glutAddMenuEntry("Bubble sort",0);//for mouse
 	glutAddMenuEntry("selection sort",1);
 	glutAddMenuEntry("Merge sort",2);
 	glutAddMenuEntry("quick sort",3);
@@ -266,3 +267,4 @@ int main(int argc,char** argv){
 	glutMainLoop();
 	return 0;
 }
+//the code ends here
