@@ -12,6 +12,6 @@ We have used OpenGL to display the sorting algorithum.
 
 
 ## Contributors
-[Palak](https://github.com/Palak-137)
-[Mahima](https://github.com/starmahima)
-[Mukul](https://github.com/Kevin-DeBruyne)
+ - [Palak](https://github.com/Palak-137)
+ - [Mahima](https://github.com/starmahima)
+ - [Mukul](https://github.com/Kevin-DeBruyne)
