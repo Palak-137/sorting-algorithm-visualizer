@@ -10,6 +10,9 @@ We have used OpenGL to display the sorting algorithum.
 4. Choose option
 5. Sorting is Done.
 
+### Glimpse -
+
+![image](https://user-images.githubusercontent.com/54790525/101024354-fd3f8900-3599-11eb-9bae-eb6f17393f5c.png)
 
 ## Contributors
  - [Palak](https://github.com/Palak-137)
