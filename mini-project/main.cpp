@@ -148,7 +148,7 @@ void insertion(){
 
 }
 
-
+//initial sort using selection sort
 void sort(){
 	line temp;
 	int a=0;
