@@ -3,6 +3,7 @@
 #include<iostream>
 
 #define max 80
+//the no of lines in the interface
 
 struct color {
 	int r,g,b;
