@@ -60,10 +60,10 @@ int	i=l,j=m+1,k=l;
 			i++;k++;
 	}
 	while(j<=r){
-		    	temp[k].c.r=sortln[j].c.r;
+            temp[k].c.r=sortln[j].c.r;
 			temp[k].c.g=sortln[j].c.g;
 			temp[k].c.b=sortln[j].c.b;
-		    	temp[k].len=sortln[j].len;
+            temp[k].len=sortln[j].len;
 			j++;k++;
 	}
 	for(i=l;i<=r;i++){
@@ -88,6 +88,7 @@ void mergesort(int l , int r){
 }
 int partition(int l,int r){
 	line temp;
+
 	int i,j,pivot;
 	pivot=sortln[l].len;
 	i=l+1;
@@ -116,6 +117,7 @@ int partition(int l,int r){
 }
 void quicksort(int l,int r){
 	int pos;
+
 	if(l<r){
 		pos=partition(l,r);
 		quicksort(l,pos-1);
